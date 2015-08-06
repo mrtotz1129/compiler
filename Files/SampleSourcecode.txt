@@ -1,0 +1,22 @@
+main 
+xSTART
+	bool a = !true||!(1<2), c;
+	int  b= 5*2-(10+2);
+	bool c =  false;
+	c = 1<2;
+	int d = b+++1, e = "SNS";
+	read a, %f
+	float f = 1/10, g;
+	print "SNS";
+
+	if(x>2){
+		print "2";
+	}
+	
+	while(10>1){
+		print "10";
+	}
+	
+	g = 100%2.1;
+xFINISH
+

@@ -1,0 +1,189 @@
+main 
+xSTART
+	int y;	
+	read y, %i;
+	print y;
+xFINISH
+
+main 
+xSTART
+	int x = 0 , y =0, z = 0;	
+	while (x < 3)
+	{
+		y = 0;
+		while(y < 3){
+			print "sns#n";
+			z = 0;
+			while(z < 3)
+			{
+				z++;
+				print "#tprogramming#n";
+				
+			}
+			y++;
+		}
+		print "gino";
+		x++;
+	}
+xFINISH
+
+
+main 
+xSTART
+	int x = 0 , y =0, z = 0;	
+	do{
+		print "SirJude#n";
+		x = 0;
+		do{
+			print "#tHAHA#n";
+			x++;
+			y = 0;
+			while(y < 3){
+				print "#t#t-------#n";
+				y++;
+			}
+		}while(x <3);
+		z++;
+	}while(z < 3);		
+xFINISH
+
+main 
+xSTART
+	int x, y;
+	for(x = 1; x < 10 ; x++)
+	{
+		y = 0;
+		print "number: " & x & "#n";
+		while(y < 5)
+		{
+			print "#t*";
+			y++;
+		}
+		print "#n";
+	}	
+xFINISH
+
+main 
+xSTART
+	int x, y, z;
+	for(x = 1; x < 10 ; x++)
+	{
+		print "number: " & x & "#n";
+		for(y = 0; y < 5 ; y++)
+		{
+			print "#t*";
+			for(z = 0; z < 3 ; z++)
+			{
+				print "#n#t#t+";
+			}
+			print "#n";
+		}
+		print "#n";
+	}	
+xFINISH
+
+main 
+xSTART
+	int x, y;
+	for(x = 0; x <100; x++)
+	{
+		if(x%2 == 0)
+		{
+			print "even: " & x & "#n";
+		}
+		else 
+		{
+			print "#todd: " & x & "#n";
+		}
+
+		for(y = 0; y <3; y++)
+		{
+			print "---------";
+		}
+		print "#n";
+	}
+xFINISH
+
+main 
+xSTART
+	int x = 0 , y = 2, z = 3;
+	do{
+		print "SirJude#n";
+		x = 0;
+		do{
+			print "#tHAHA#n";
+			x++;
+			while(y < 3){
+				print "#t#t-------#n";
+				y++;
+			}
+		}while(x <3);
+		z++;
+	}while(z < 3);		
+xFINISH
+
+main 
+xSTART
+	for(int x = 0; x < 5; x++)
+	{
+		if(x%2 == 0)
+		{
+			print "even: " & x & "#n";
+		}
+		else if( x%2==1) 
+		{	
+			for(int y = 0; y < 5; y++)
+			{
+				print "--------";
+			}
+		}
+
+		print "#n";
+	}
+xFINISH
+
+main 
+xSTART
+	for(int x = 0; x <100; x++)
+	{
+		if(x%2 == 0)
+		{
+			print "even: " & x & "#n";
+		}
+		else 
+		{
+			print "#todd: " & x & "#n";
+		}
+
+		for(int y = 0; y <3; y++)
+		{
+			print "---------";
+		}
+		print "#n#t";
+
+		int z = 0;
+		while(z < 5){
+			print "*";
+			z++;
+		}
+		print "#n";
+	}
+xFINISH
+
+FIBONACCI
+main
+xSTART 
+           int a,b,c,i,n; 
+           a=0; 
+           b=1; 
+	   n = 20;
+           print "FIBONACCI SERIES #n"; 
+           print a & "#t" & b; 
+           for(i=0;i<n;i++) 
+          { 
+              c=a+b; 
+              a=b; 
+              b=c; 
+              print "#t" & c; 
+          } 
+xFINISH

@@ -1,0 +1,34 @@
+EXPR -> LOG_EXPR | REL_EXPR | ARITH_EXPR
+
+LOG_EXPR -> [LOG_UNARY] LOG_TERM { LOG_OPERATOR [LOG_UNARY] LOG_TERM }
+LOG_TERM -> REL_EXPR
+
+LOG_OPERATOR -> log_and | log_or
+LOG_UNARY -> log_not
+
+//End Logical Expression
+
+REL_EXPR -> REL_TERM {REL_OPERATOR REL_TERM}
+REL_TERM -> ARITH_EXPR
+
+
+REL_OPERATOR -> rel_not | rel_great | rel_gqual | rel_less | rel_lqual | rel_equal
+
+//End Relational Expression
+
+ARITH_EXPR -> TERM {OPERATOR TERM}
+TERM -> FACTOR {OPERATOR1 FACTOR}
+FACTOR -> CONST | [UNARY_OP] ident [UNARY_OP] | oParen EXPR cParen 
+
+OPERATOR -> math_add | math_sub |
+OPERATOR1 math_mul | math_div | math_mod
+UNARY_OP -> incre | decre
+
+
+//End Arithmetic Expression
+
+(x>3) && (x<(3+2)
+
+
+
+

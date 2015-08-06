@@ -1,0 +1,59 @@
+main
+xSTART 
+	/*
+	   SNS 
+	     PROGRAMMING
+		   LANGUAGE
+	*/
+	int x = "asd", _asd
+           int a,b,c,i,n; 
+           a=0; 
+           b=1; 
+	   n = 20;
+           print "FIBONACCI SERIES #n"; 
+           print a & "#t" & b; 
+           for(i=0;i<n;i++) 
+          { 
+              c=a+b; 
+              a=b; 
+              b=c; 
+              print "#t" & c; 
+          } 
+
+
+		
+	int asd = "asd"
+	int a, b, c, i, iNum;
+	a = 0; 
+	b = 1; 
+	iNum = 10;
+	print "FIBONACCI SERIES #n"; 
+	print a & "#t" & b; 
+	for(i = 0; i < iNum; i++) 
+	{ 
+		c = a + b; 
+		a = b; 	
+		b = c; 
+		print "#t" & c; 	
+	} 
+
+	print "#n";
+	for(int y = 0; y <10; y++) print "---------";
+	print "#n";
+
+	for(int x = -10; x <20; x++)
+	{
+		print "#n#t";
+		
+		if(x%2 == 0) print "even: " & x & "#n";
+		else print "#todd: " & x & "#n";
+		
+		int z = 0;
+		
+		while(z < 5){
+			print "*****";
+			z++;
+		}
+		//print "#n";
+	}
+xFINISH

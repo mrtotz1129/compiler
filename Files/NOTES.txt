@@ -1,0 +1,14 @@
+KULANG:
+2. left recursion. log term should include log expr. halimbawa (x||y)&&(a||b)
+3. wala talaga tayong TREE dinaya lang sa printf
+4. yung sa expression no type checkin pa. (pde dayain pag arith (int, double) else boolean [no evaluation])
+5. lexical (yung type specification sa READ) di ko pa nalagay, and wala pa din yun sa semantics dapat andun din.
+6. iba pang bugs sa syntactic analyzer.
+7. and many more. 
+
+NOTE:
+ok na yung lines na adjust na from 0 to 1.
+kung ano kaya niyong tapusin tapusin niyo just make it correct and clear.
+try ko gumising ng maaga di ako papasok ng OOAD at COMORG
+documents please?
+COOPERATE GUYS. 
